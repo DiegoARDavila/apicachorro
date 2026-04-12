@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Cachorros - Imagens Aleatórias</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cachorros Fofos 🐶</h1>
+        <p>Clique para ver uma imagem aleatória de cachorro!</p>
+    </header>
+    
+    <main>
+        <div class="image-container">
+            <div id="load-text" class="loading">Carregando cachorrinho fofo...</div>
+            <img id="dog-image" src="" alt="Cachorro fofo" class="dog-img">
+            <div id="error-text" class="error" style="display: none;"></div>
+        </div>
+        <button id="fetch-button" class="fetch-btn">Novo Cachorro 🐕</button>
+    </main>
+    
+    <footer>
+        <p>Dados de <a href="https://thedogapi.com/" target="_blank">TheDogAPI</a></p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
